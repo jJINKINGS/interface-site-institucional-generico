@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("./reset.css");
+
+:root {
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --gray-1: #191C1F; 
+    --gray-2: #212529;
+    --gray-3: #343A40;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+    --font-family:  'Inter', sans-serif;
+    --font-weigth-title: 600;
+    --font-size-title: clamp(3.125rem, 6vw, 3.25rem);
+    --font-size-title-2: clamp(1.5rem, 3vw, 2.5rem);
+    --font-size-title-3: clamp(1.2rem, 1vw, 2rem);
+    --line-height-title-1: 140%;
+    --line-height-title-2-3: 160%;
+    --font-weight-text-1-2-3: 400;
+    --font-weight-text-4: 600;
+    --font-size-text: clamp(1rem, 1.5vw, 1.25rem);
+    --font-size-text-2: 1.125rem;
+    --font-size-text-3-4: clamp(0rem, 2vw, 1rem);
+    --line-heigth-text: 150%;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--gray-2, #212529);
+}
